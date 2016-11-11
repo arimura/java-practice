@@ -15,7 +15,6 @@ public class ZooTest {
     }
 
     static class Dog extends Animal implements Runner {
-
         public Dog(String name) {
             super(name);
         }
