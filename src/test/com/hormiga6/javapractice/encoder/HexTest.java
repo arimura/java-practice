@@ -22,17 +22,7 @@ public class HexTest {
     }
 
     @Test
-    public void testEncodeFast1() throws UnsupportedEncodingException {
-        assertThat(Hex.encodeFast("hoge=fuga".getBytes("UTF-8")), is("414243444546"));
-    }
-
-    @Test
     public void testApacheCodec() throws UnsupportedEncodingException {
         assertThat(org.apache.commons.codec.binary.Hex.encodeHexString("ABCDEF".getBytes("UTF-8")), is("414243444546"));
-    }
-
-    @Test
-    public void testApacheCodec2() throws UnsupportedEncodingException {
-        assertThat(org.apache.commons.codec.binary.Hex.encodeHexString("hoge=fuga".getBytes("UTF-8")), is("414243444546"));
     }
 }
