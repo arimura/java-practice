@@ -17,7 +17,7 @@ import static org.junit.Assert.assertThat;
 public class CalendarTest {
     @Test
     public void testInit() {
-        //moth start from 0
+        //month start from 0
         Calendar instance1 = Calendar.getInstance();
         instance1.set(2016, 10, 7, 12, 0, 0);
         Calendar instance2 = Calendar.getInstance();
