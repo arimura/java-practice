@@ -13,11 +13,26 @@ import static org.junit.Assert.*;
 public class HexTest {
     @Test
     public void testEncodeSlow() throws UnsupportedEncodingException {
-        assertThat(Hex.encodeSlow("ABCDEF".getBytes("UTF-8")),is("414243444546")) ;
+        assertThat(Hex.encodeSlow("ABCDEF".getBytes("UTF-8")), is("414243444546"));
     }
 
     @Test
     public void testEncodeFast() throws UnsupportedEncodingException {
-        assertThat(Hex.encodeFast("ABCDEF".getBytes("UTF-8")),is("414243444546")) ;
+        assertThat(Hex.encodeFast("ABCDEF".getBytes("UTF-8")), is("414243444546"));
+    }
+
+    @Test
+    public void testEncodeFast1() throws UnsupportedEncodingException {
+        assertThat(Hex.encodeFast("hoge=fuga".getBytes("UTF-8")), is("414243444546"));
+    }
+
+    @Test
+    public void testApacheCodec() throws UnsupportedEncodingException {
+        assertThat(org.apache.commons.codec.binary.Hex.encodeHexString("ABCDEF".getBytes("UTF-8")), is("414243444546"));
+    }
+
+    @Test
+    public void testApacheCodec2() throws UnsupportedEncodingException {
+        assertThat(org.apache.commons.codec.binary.Hex.encodeHexString("hoge=fuga".getBytes("UTF-8")), is("414243444546"));
     }
 }

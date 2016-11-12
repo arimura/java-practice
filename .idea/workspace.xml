@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d22d5741-75dd-40c6-af20-191d1eef70e5" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/com/hormiga6/javapractice/com/hormiga6/javapractice/trustmanager/TrustManagerTest.java" afterPath="$PROJECT_DIR$/src/test/com/hormiga6/javapractice/trustmanager/TrustManagerTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com/hormiga6/javapractice/calendar/CalendarTest.java" afterPath="$PROJECT_DIR$/src/test/com/hormiga6/javapractice/calendar/CalendarTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/JavePractice.iml" afterPath="$PROJECT_DIR$/JavePractice.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/com/hormiga6/javapractice/encoder/HexTest.java" afterPath="$PROJECT_DIR$/src/test/com/hormiga6/javapractice/encoder/HexTest.java" />
     </list>
     <ignored path="JavePractice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,36 +25,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Base64Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/hormiga6/javapractice/encoder/Base64Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Hex.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/com/hormiga6/javapractice/encoder/Hex.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="41">
-              <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HexTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HexTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/hormiga6/javapractice/encoder/HexTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+            <state relative-caret-position="41">
+              <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hex.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/com/hormiga6/javapractice/encoder/Hex.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -356,32 +344,6 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="BasicTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.hormiga6.javapractice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="JavePractice" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.hormiga6.javapractice" />
-      <option name="MAIN_CLASS_NAME" value="com.hormiga6.javapractice.BasicTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
     <configuration default="false" name="Base64Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -448,6 +410,32 @@
       <option name="MAIN_CLASS_NAME" value="com.hormiga6.javapractice.encoder.HexTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="HexTest.testApacheCodec" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.hormiga6.javapractice.encoder.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JavePractice" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.hormiga6.javapractice.encoder" />
+      <option name="MAIN_CLASS_NAME" value="com.hormiga6.javapractice.encoder.HexTest" />
+      <option name="METHOD_NAME" value="testApacheCodec" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -706,18 +694,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TrustManagerTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.BasicTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Base64Test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.HexTest.testEncodeSlow" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.HexTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.Base64Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.HexTest.testEncodeSlow" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.HexTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.HexTest.testApacheCodec" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.HexTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.HexTest.testEncodeSlow" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Base64Test" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TrustManagerTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.BasicTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.HexTest.testApacheCodec" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.HexTest.testEncodeSlow" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.Base64Test" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TrustManagerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -747,20 +735,20 @@
     <history-entry file="Base64Test - 2016.11.12 at 12h 56m 04s.xml">
       <configuration name="Base64Test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BasicTest - 2016.11.12 at 00h 41m 21s.xml">
-      <configuration name="BasicTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BasicTest - 2016.11.12 at 01h 23m 14s.xml">
       <configuration name="BasicTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="HexTest - 2016.11.12 at 13h 31m 39s.xml">
       <configuration name="HexTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="HexTest - 2016.11.12 at 14h 21m 10s.xml">
+      <configuration name="HexTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="HexTest_testApacheCodec - 2016.11.12 at 14h 20m 15s.xml">
+      <configuration name="HexTest.testApacheCodec" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="HexTest_testEncodeSlow - 2016.11.12 at 13h 29m 19s.xml">
       <configuration name="HexTest.testEncodeSlow" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TrustManager - 2016.11.12 at 00h 24m 36s.xml">
-      <configuration name="TrustManager" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TrustManagerTest - 2016.11.12 at 01h 23m 19s.xml">
       <configuration name="TrustManagerTest" configurationId="JUnit" />
@@ -808,7 +796,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1089,14 +1079,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/com/hormiga6/javapractice/encoder/Hex.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="41">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/hormiga6/javapractice/encoder/Base64Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1109,11 +1091,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/hormiga6/javapractice/encoder/HexTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="41">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/com/hormiga6/javapractice/encoder/Hex.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="15" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
