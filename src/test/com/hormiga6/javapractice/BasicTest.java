@@ -15,4 +15,11 @@ public class BasicTest {
         assertThat(strArray[0],is("hoge"));
         assertThat(strArray[1],is("fuga"));
     }
+
+    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    public void arrayIndexing(){
+        //no negative index
+        String[] strArray = new String[]{"hoge","fuga"};
+        assertThat(strArray[-1],is("fuga"));
+    }
 }
