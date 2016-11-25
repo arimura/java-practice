@@ -1,4 +1,4 @@
-package com.hormiga6.javapractice.com.hormiga6.javapractice.trustmanager;
+package com.hormiga6.javapractice.trustmanager;
 
 import org.junit.Test;
 
