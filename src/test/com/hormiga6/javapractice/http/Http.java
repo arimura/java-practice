@@ -56,4 +56,16 @@ public class Http {
             assertThat(con.getResponseCode(), is(404));
         }
     }
+
+    @Test
+    public void testPost() throws IOException {
+        URL url = new URL("http://localhost:5000");
+        HttpURLConnection con = (HttpURLConnection) url.openConnection();
+        con.setRequestMethod("POST");
+        //try to get input stream from 404 throw exception
+        try (InputStream inputStream = con.getInputStream();
+        ) {
+            assertThat(con.getResponseCode(), is(200));
+        }
+    }
 }
