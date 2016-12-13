@@ -3,9 +3,6 @@ package com.hormiga6.javapractice.generics;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by kotaro.arimura on 2016/11/10.
- */
 public class Zoo<T extends Animal & Runner>  {
     private List<T> runningAnimals = new ArrayList<T>();
     private List<Runner> runners = new ArrayList<Runner>();

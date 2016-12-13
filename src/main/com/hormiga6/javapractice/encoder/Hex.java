@@ -1,8 +1,5 @@
 package com.hormiga6.javapractice.encoder;
 
-/**
- * Created by kotaro.arimura on 2016/11/12.
- */
 public class Hex {
     final protected static char[] hexArray = "0123456789ABCDEF".toCharArray();
 
