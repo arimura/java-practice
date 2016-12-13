@@ -4,9 +4,6 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-/**
- * Created by kotaro.arimura on 2016/11/10.
- */
 public class ZooTest {
     @Test
     public void testKeepRunnerAnimal(){

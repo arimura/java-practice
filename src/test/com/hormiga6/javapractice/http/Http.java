@@ -14,9 +14,6 @@ import java.net.URLConnection;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * Created by kotaro.arimura on 2016/11/25.
- */
 public class Http {
     @Test
     public void testStatus200() throws IOException {

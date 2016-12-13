@@ -9,9 +9,6 @@ import java.util.Base64;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * Created by kotaro.arimura on 2016/11/12.
- */
 public class Base64Test {
     @Test
     public void testEncode() throws UnsupportedEncodingException {

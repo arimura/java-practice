@@ -5,9 +5,6 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * Created by kotaro.arimura on 2016/11/29.
- */
 public class RegexTest {
     @Test
     public void testMatch() {

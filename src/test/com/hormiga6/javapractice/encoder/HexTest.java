@@ -7,9 +7,6 @@ import java.io.UnsupportedEncodingException;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.*;
 
-/**
- * Created by kotaro.arimura on 2016/11/12.
- */
 public class HexTest {
     @Test
     public void testEncodeSlow() throws UnsupportedEncodingException {

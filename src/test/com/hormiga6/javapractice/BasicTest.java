@@ -5,9 +5,6 @@ import org.junit.Test;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-/**
- * Created by kotaro.arimura on 2016/11/12.
- */
 public class BasicTest {
     @Test
     public void initArray(){

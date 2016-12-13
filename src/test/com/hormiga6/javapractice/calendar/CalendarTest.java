@@ -11,9 +11,6 @@ import static org.hamcrest.number.OrderingComparison.greaterThan;
 import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertThat;
 
-/**
- * Created by kotaro.arimura on 2016/11/11.
- */
 public class CalendarTest {
     @Test
     public void testInit() {
