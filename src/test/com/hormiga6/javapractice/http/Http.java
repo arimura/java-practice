@@ -1,5 +1,6 @@
 package com.hormiga6.javapractice.http;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import java.io.BufferedReader;
@@ -55,6 +56,7 @@ public class Http {
     }
 
     @Test
+    @Ignore
     public void testPost() throws IOException {
         URL url = new URL("http://localhost:5000");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
