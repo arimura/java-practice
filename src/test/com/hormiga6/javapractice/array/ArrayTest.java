@@ -1,11 +1,11 @@
-package com.hormiga6.javapractice;
+package com.hormiga6.javapractice.array;
 
 import org.junit.Test;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
-public class BasicTest {
+public class ArrayTest {
     @Test
     public void initArray(){
         String[] strArray = new String[]{"hoge","fuga"};
