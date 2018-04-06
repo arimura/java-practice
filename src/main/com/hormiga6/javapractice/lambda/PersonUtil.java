@@ -58,6 +58,19 @@ public class PersonUtil {
         }
     }
 
+    public static <X, Y>void processElements(
+            Iterable<X> source,
+            Predicate<X> tester,
+            Function<X, Y> mapper,
+            Consumer<Y> block){
+                for (X p: source){
+                    if(tester.test(p)){
+                        Y data = mapper.apply(p);
+                        block.accept(data);
+                    }
+                }
+    }
+
     interface CheckPerson {
         boolean test(Person p);
     }

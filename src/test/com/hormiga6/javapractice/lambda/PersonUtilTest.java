@@ -70,4 +70,30 @@ public class PersonUtilTest {
         );
     }
 
+    @Test
+    public void processElements(){
+        PersonUtil.processElements(
+                list,
+                p -> p.getGender() == Person.Sex.MALE
+                        && p.getAge() >= 18
+                        && p.getAge() <= 25,
+                p -> p.getEmailAddress(),
+                email -> System.out.println(email)
+        );
+    }
+
+    @Test
+    public void processByAggregateOperation(){
+        list.stream()
+                .filter(
+                        p -> p.getGender() == Person.Sex.MALE
+                                && p.getAge() >= 18
+                                && p.getAge() <= 25)
+                .map(p -> p.getEmailAddress())
+                .forEach(email -> System.out.println(email));
+    }
+
+
+
+
 }
